@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2EAD38D1BFC1AA800F959DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EAD38C1BFC1AA800F959DA /* AppDelegate.swift */; };
+		A2EAD38F1BFC1AA800F959DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EAD38E1BFC1AA800F959DA /* ViewController.swift */; };
+		A2EAD3921BFC1AA800F959DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EAD3901BFC1AA800F959DA /* Main.storyboard */; };
+		A2EAD3941BFC1AA800F959DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EAD3931BFC1AA800F959DA /* Assets.xcassets */; };
+		A2EAD3971BFC1AA800F959DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EAD3951BFC1AA800F959DA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2EAD3891BFC1AA800F959DA /* minireto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minireto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EAD38C1BFC1AA800F959DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2EAD38E1BFC1AA800F959DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2EAD3911BFC1AA800F959DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2EAD3931BFC1AA800F959DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2EAD3961BFC1AA800F959DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2EAD3981BFC1AA800F959DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2EAD3861BFC1AA800F959DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2EAD3801BFC1AA800F959DA = {
+			isa = PBXGroup;
+			children = (
+				A2EAD38B1BFC1AA800F959DA /* minireto */,
+				A2EAD38A1BFC1AA800F959DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2EAD38A1BFC1AA800F959DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2EAD3891BFC1AA800F959DA /* minireto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EAD38B1BFC1AA800F959DA /* minireto */ = {
+			isa = PBXGroup;
+			children = (
+				A2EAD38C1BFC1AA800F959DA /* AppDelegate.swift */,
+				A2EAD38E1BFC1AA800F959DA /* ViewController.swift */,
+				A2EAD3901BFC1AA800F959DA /* Main.storyboard */,
+				A2EAD3931BFC1AA800F959DA /* Assets.xcassets */,
+				A2EAD3951BFC1AA800F959DA /* LaunchScreen.storyboard */,
+				A2EAD3981BFC1AA800F959DA /* Info.plist */,
+			);
+			path = minireto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2EAD3881BFC1AA800F959DA /* minireto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EAD39B1BFC1AA800F959DA /* Build configuration list for PBXNativeTarget "minireto" */;
+			buildPhases = (
+				A2EAD3851BFC1AA800F959DA /* Sources */,
+				A2EAD3861BFC1AA800F959DA /* Frameworks */,
+				A2EAD3871BFC1AA800F959DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minireto;
+			productName = minireto;
+			productReference = A2EAD3891BFC1AA800F959DA /* minireto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2EAD3811BFC1AA800F959DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Carlos Francisco Soler";
+				TargetAttributes = {
+					A2EAD3881BFC1AA800F959DA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8AZVC4CG38;
+					};
+				};
+			};
+			buildConfigurationList = A2EAD3841BFC1AA800F959DA /* Build configuration list for PBXProject "minireto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2EAD3801BFC1AA800F959DA;
+			productRefGroup = A2EAD38A1BFC1AA800F959DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2EAD3881BFC1AA800F959DA /* minireto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2EAD3871BFC1AA800F959DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EAD3971BFC1AA800F959DA /* LaunchScreen.storyboard in Resources */,
+				A2EAD3941BFC1AA800F959DA /* Assets.xcassets in Resources */,
+				A2EAD3921BFC1AA800F959DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2EAD3851BFC1AA800F959DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EAD38F1BFC1AA800F959DA /* ViewController.swift in Sources */,
+				A2EAD38D1BFC1AA800F959DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2EAD3901BFC1AA800F959DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EAD3911BFC1AA800F959DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2EAD3951BFC1AA800F959DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EAD3961BFC1AA800F959DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2EAD3991BFC1AA800F959DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2EAD39A1BFC1AA800F959DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2EAD39C1BFC1AA800F959DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = minireto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.minireto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2EAD39D1BFC1AA800F959DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = minireto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.minireto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2EAD3841BFC1AA800F959DA /* Build configuration list for PBXProject "minireto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EAD3991BFC1AA800F959DA /* Debug */,
+				A2EAD39A1BFC1AA800F959DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EAD39B1BFC1AA800F959DA /* Build configuration list for PBXNativeTarget "minireto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EAD39C1BFC1AA800F959DA /* Debug */,
+				A2EAD39D1BFC1AA800F959DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2EAD3811BFC1AA800F959DA /* Project object */;
+}
